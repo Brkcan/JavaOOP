@@ -1,4 +1,4 @@
-package com.java.factory;
+package com.java.polimo;
 
 public class Directory extends Manager{
 	
@@ -15,10 +15,6 @@ public class Directory extends Manager{
 	@Override
 	public int salary() {
 		return (super.salary() + bonus);
-	}
-	
-	public void work() {
-		System.out.println("Directory works  ");
 	}
 	
 }

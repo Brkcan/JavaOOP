@@ -1,4 +1,4 @@
-package com.java.factory;
+package com.java.polimo;
 
 public class Employee {
 
@@ -21,10 +21,6 @@ public class Employee {
 		System.out.println("name : " + name);
 		System.out.println("year : " + year);
 		System.out.println("department : " + department);
-	}
-	
-	public void work() {
-		System.out.println("Employee Work");
 	}
 	
 	public int salary() {

@@ -1,4 +1,4 @@
-package com.java.factory;
+package com.java.polimo;
 
 public class Manager extends Employee{
 	
@@ -9,11 +9,5 @@ public class Manager extends Employee{
 		this.departmentManaged = department;
 	}
 
-	public void work() {
-		System.out.println("Manager Work :)");
-	}
 	
-	public void manage() {
-		System.out.println("MANAGE");
-	}
 }
