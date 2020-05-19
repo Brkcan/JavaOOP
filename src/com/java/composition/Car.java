@@ -9,7 +9,7 @@ public class Car {
 	private String year;
 	private int doorCount;
 	private Wheel[] wheels = new Wheel[4];
-	private Engine engine;
+	protected Engine engine;
 	private Door[] door;
 	private Transmission transmission;
 	

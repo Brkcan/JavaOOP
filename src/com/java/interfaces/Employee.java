@@ -1,6 +1,6 @@
-package com.java.polimo;
+package com.java.interfaces;
 
-public class Employee {
+public class Employee implements Worker{
 
 	protected int no;
 	protected String name;
@@ -27,5 +27,9 @@ public class Employee {
 		return year * BASE_SALARY + 100;
 	}
 	
-	
+	@Override
+	public void work() {
+		System.out.println("Employee working");
+	}
+
 }

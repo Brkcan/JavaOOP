@@ -19,4 +19,10 @@ public class Engine {
 		System.out.println("Engine stop");
 	}
 
+	@Override
+	public String toString() {
+		return "Engine [volume=" + volume + ", horsePower=" + horsePower + "]";
+	}
+	
+	
 }

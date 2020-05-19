@@ -1,6 +1,6 @@
-package com.java.polimo;
+package com.java.abstracts;
 
-public class Employee {
+public abstract class Employee {
 
 	protected int no;
 	protected String name;
@@ -26,6 +26,7 @@ public class Employee {
 	public int salary() {
 		return year * BASE_SALARY + 100;
 	}
-	
+	public abstract void work();
+
 	
 }
