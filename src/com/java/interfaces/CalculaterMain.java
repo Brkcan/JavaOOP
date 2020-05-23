@@ -13,7 +13,13 @@ public class CalculaterMain {
 		calculater.addFunction(new SinFunction());
 		calculater.addFunction(new CosFunction());
 		calculater.addFunction(new LogFunction());
-
+		
+		
+		Math mat = new SinFunction();
+		System.out.println(mat.getName());
+		
+		System.out.println("****************");
+		
 		calculater.listMathFuntion();
 		String name = in.next();
 		System.out.println("deger giriniz.");
