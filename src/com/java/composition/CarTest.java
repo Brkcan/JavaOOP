@@ -4,7 +4,7 @@ public class CarTest {
 	
 	public static void main(String[] args) {
 		
-		Car car = new Car("Mercedes Benz","CLK 200","2013",2);
+		Car car = new Car("Mercedes Benz","CLK 200","2013",4);
 		car.start();
 		car.go(1000);
 		car.accelerate(100);

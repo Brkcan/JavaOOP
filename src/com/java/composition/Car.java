@@ -10,8 +10,8 @@ public class Car {
 	private int doorCount;
 	private Wheel[] wheels = new Wheel[4];
 	protected Engine engine;
-	private Door[] door;
-	private Transmission transmission;
+	protected Door[] door;
+	protected Transmission transmission;
 	
 	private int speed;
 	private int distance;
@@ -39,7 +39,7 @@ public class Car {
 		door[0] = new Door("Left-front");
 		door[1] = new Door("Right-front");
 		
-		if(this.doorCount == 4) {
+		if(this.doorCount == 4) {    
 			door[2] = new  Door("Left-rear");
 			door[3] = new  Door("Right-rear");
 		}
@@ -49,7 +49,11 @@ public class Car {
 		engine.start();
 	}
 	public void go(int newDistance) {
-		
+		for(int i = 0; i< door.length;i++) {
+			if(door[i].isClosed() == true) {
+				door[i].close();
+			}
+		}
 		distance += newDistance;
 	}
 	

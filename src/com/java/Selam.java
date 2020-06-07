@@ -12,7 +12,7 @@ public class Selam {
         }else {
             cumle = "Selam" + world;
         }
-        return cumle;
+        return cumle; 
     }
 
     public String selamiAl(){
