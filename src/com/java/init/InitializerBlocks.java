@@ -7,9 +7,6 @@ public class InitializerBlocks {
 		i = 8;
 	}
 	
-	
-	
-	
 	public static void main(String[] args) {
 		
 		InitializerBlocks initializerBlocks = new InitializerBlocks();
