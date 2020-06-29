@@ -1,4 +1,4 @@
-package com.java.polimo;
+package com.java.downcast;
 
 public class Manager extends Employee{
 	
@@ -14,6 +14,10 @@ public class Manager extends Employee{
 
 	public void work() {
 		System.out.println("Manager");
+	}
+	
+	public void manage() {
+		System.out.println("Manage");
 	}
 
 }

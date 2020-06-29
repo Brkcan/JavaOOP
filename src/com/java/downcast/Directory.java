@@ -1,4 +1,4 @@
-package com.java.polimo;
+package com.java.downcast;
 
 public class Directory extends Manager{
 	

@@ -1,4 +1,4 @@
-package com.java.polimo;
+package com.java.downcast;
 
 public class Employee implements Comparable{
 
@@ -9,8 +9,6 @@ public class Employee implements Comparable{
 	
 	public static final int BASE_SALARY=500;
 
-	
-	
 	public Employee() {
 		super();
 	}
@@ -22,6 +20,16 @@ public class Employee implements Comparable{
 		this.department = department;
 	}
 	
+	
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public void printInfo() {
 		System.out.println("no :"  +  no);
 		System.out.println("name : " + name);

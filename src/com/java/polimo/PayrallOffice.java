@@ -14,10 +14,32 @@ public class PayrallOffice {
 		
 		Manager manager = new Manager(2, "can", 6, "ıt", "null");
 		office.paySalary(manager);
+		
+		Directory director = new Directory(3, "Test", 3, "It", "It", 4000);
+		office.paySalary(director);
 	
-	
+		Manager maneger3 = new Directory(3, "Test", 10, "It", "It", 4000);
+		office.paySalary(maneger3);
+		
 		employee = manager;
 		office.paySalary(employee);
+		
+		
+		System.out.println("-----HR------");
+		
+		HR hr = new HR();
+		Employee e = hr.getEmployee();
+		e.work();
+		
+		System.out.println("-------------------------");
+		
+		Employee employee2 = new Directory(3, "Test", 3, "It", "It", 4000);
+		System.out.println(employee2.salary());
+		employee2.employeeInfo();
+		if(employee2 instanceof Directory) {
+			Directory directory2 = (Directory) employee2;
+			directory2.directoryInfo();
+		}
 	}
 
 }
