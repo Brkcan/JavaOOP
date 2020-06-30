@@ -9,6 +9,11 @@ public abstract class Employee {
 	
 	public static final int BASE_SALARY=500;
 
+	
+	public Employee(int no) {
+		this.no = no;
+	}
+
 	public Employee(int no, String name, int year, String department) {
 		this.no = no;
 		this.name = name;
