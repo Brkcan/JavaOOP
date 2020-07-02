@@ -11,5 +11,10 @@ public class Test {
 		Directory directory = new Directory(2);
 		directory.printInfo();
 		directory.work();
+		
+		System.out.println("-------------");
+		
+		Employee employee = new Manager(6, "Burak", 10, "IT", "IT");
+		System.out.println(employee.getName());
 	}
 }

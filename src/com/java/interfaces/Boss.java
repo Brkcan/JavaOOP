@@ -7,4 +7,10 @@ public class Boss implements Worker{
 		System.out.println("BOSS is working");
 	}
 
+	@Override
+	public void parent() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

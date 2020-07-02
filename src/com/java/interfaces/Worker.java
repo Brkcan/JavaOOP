@@ -1,6 +1,7 @@
 package com.java.interfaces;
 
-public interface Worker {
+public interface Worker  extends Parent{
 
 	void work();
+	
 }

@@ -32,4 +32,9 @@ public class Employee implements Worker{
 		System.out.println("Employee working");
 	}
 
+	@Override
+	public void parent() {
+		System.out.println("Parent Employee");
+	}
+
 }

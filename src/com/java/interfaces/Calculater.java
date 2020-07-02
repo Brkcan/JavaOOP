@@ -17,7 +17,7 @@ public class Calculater {
 		math[currentCount] = maths;
 		currentCount++;
 	}
-	
+	  
 	public double doCalculater(String functionName, double arg) {
 		double result = 0.0;
 		boolean isFunctionFound = false;
